@@ -38,7 +38,7 @@ Most cryptocurrencies fell within 2 classes.
 3D view of our clusters.
 ![Screen Shot 2022-07-22 at 11 17 37 AM](https://user-images.githubusercontent.com/100544761/180483305-68701c56-6cfb-4c7a-84f5-227298cc9a11.png)
 
-Created Table of tradable coins.  Table can be sorted and selected. Image below is sorted by name ascending.
+Created Table of tradable coins.  Table can be sorted and selected. Image below is sorted by CoinName ascending.
 ![Screen Shot 2022-07-22 at 1 33 17 PM](https://user-images.githubusercontent.com/100544761/180502735-9078a8b8-a932-421a-9b5f-67ba8cca7c34.png)
 
 MinMaxScaler() to better view the relationship between coin supply and mined.
