@@ -19,7 +19,7 @@ Often, new investors in cryptocurrencies are overcome with indecision and may fe
 First, I preprocessed the data by selecting features relevant to this analysis, selected rows for all cryptocurrencies that are actively trading, encoded strings by assigning them a numeric value (too many to fit in screenshot below), and generally cleaned up the database by dropping null values (that would effect the modeling process).
 ![Screen Shot 2022-07-22 at 11 13 57 AM](https://user-images.githubusercontent.com/100544761/180481655-cf071c83-d6f8-48ae-80d6-47ad6a8afa5c.png)
 
-Next, features were standardized using scikit-learn's StandardScaler().  Then, Principal Component Analysis (PCA) was administered to reduce dimensionality by essentially converging our relevant features into a smaller number, retaining helpful information while improving performance. 
+Next, features were standardized using scikit-learn's StandardScaler().  Then, Principal Component Analysis (PCA) was administered to reduce dimensionality by essentially converging our relevant features into a smaller number, retaining helpful information while improving performance.</br>
 ![Screen Shot 2022-07-22 at 11 15 46 AM](https://user-images.githubusercontent.com/100544761/180482357-8de002e5-ba1a-49a5-9176-75d28c48b924.png)
 
 An Elbow Curve was created to discover optimal number of clusters to provide the KMeans model.
@@ -37,6 +37,9 @@ Most cryptocurrencies fell within 2 classes.
 
 3D view of our clusters.
 ![Screen Shot 2022-07-22 at 11 17 37 AM](https://user-images.githubusercontent.com/100544761/180483305-68701c56-6cfb-4c7a-84f5-227298cc9a11.png)
+
+Created Table of tradable coins.
+![Screen Shot 2022-07-22 at 1 33 17 PM](https://user-images.githubusercontent.com/100544761/180502735-9078a8b8-a932-421a-9b5f-67ba8cca7c34.png)
 
 MinMaxScaler() to better view the relationship between coin supply and mined.
 ![Screen Shot 2022-07-22 at 11 29 35 AM](https://user-images.githubusercontent.com/100544761/180483582-ba627cee-64bf-410d-bd98-e28c44dbce5d.png)
