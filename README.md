@@ -50,5 +50,5 @@ We can see clear classification of our data in the 3D graph.  Our model will be 
 
 ### Contact
 
-Email(mrmileyy@gmail.com)</br>
+[Email](mrmileyy@gmail.com)</br>
 [LinkedIn](https://www.linkedin.com/in/mileymarshall)
